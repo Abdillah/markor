@@ -261,6 +261,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="pref_key__view_mode_link_color" translatable="false">pref_key__view_mode_link_color</string>
     <string name="pref_key__todotxt__start_new_tasks_with_huuid_v3" translatable="false">pref_key__todotxt__start_new_tasks_with_huuid_v3</string>
     <string name="features" translatable="false">Features</string>
+    <string name="file_template__md_picocms_template" translatable="false">picocms-template.md</string>
     <string name="file_template__md_markor_markdown_reference" translatable="false">markor-markdown-reference.md</string>
     <string name="file_template__md_jekyll_post" translatable="false">2029-01-01-jekyll-post.md</string>
     <string name="file_template__md_cooking_recipe" translatable="false">cooking-recipe.md</string>
