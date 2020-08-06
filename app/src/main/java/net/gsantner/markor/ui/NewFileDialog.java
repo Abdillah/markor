@@ -120,7 +120,7 @@ public class NewFileDialog extends DialogFragment {
         templateSpinner.setOnItemSelectedListener(new AndroidSpinnerOnItemSelectedAdapter(pos -> {
             String prefix = null;
 
-            if (pos == 3) { // Jekyll
+            if (pos == 4) { // Jekyll
                 prefix = SttCommander.DATEF_YYYY_MM_DD.format(new Date()) + "-";
             }
             if (!TextUtils.isEmpty(prefix) && !fileNameEdit.getText().toString().startsWith(prefix)) {
