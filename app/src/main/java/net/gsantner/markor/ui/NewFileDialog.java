@@ -121,7 +121,7 @@ public class NewFileDialog extends DialogFragment {
             String prefix = null;
 
             if (pos == 1) {
-                prefix = SttCommander.DATEF_YYYYMMDD.format(new Date()) + "-";
+                prefix = SttCommander.DATEF_YYYYMMDD.format(new Date()) + "00-";
             } else if (pos == 4) { // Jekyll
                 prefix = SttCommander.DATEF_YYYY_MM_DD.format(new Date()) + "-";
             }
