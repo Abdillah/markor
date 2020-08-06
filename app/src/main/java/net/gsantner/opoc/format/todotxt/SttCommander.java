@@ -36,6 +36,7 @@ public class SttCommander {
     //
     public static final Pattern TODOTXT_FILE_PATTERN = Pattern.compile("(?i)(^todo[-.]?.*)|(.*[-.]todo\\.((txt)|(text))$)");
     public static final SimpleDateFormat DATEF_YYYY_MM_DD = new SimpleDateFormat("yyyy-MM-dd", Locale.ROOT);
+    public static final SimpleDateFormat DATEF_YYYYMMDD = new SimpleDateFormat("yyyyMMdd", Locale.ROOT);
     public static final int DATEF_YYYY_MM_DD_LEN = "yyyy-MM-dd".length();
     public static final String PT_DATE = "\\d{4}-\\d{2}-\\d{2}";
 
